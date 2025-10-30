@@ -4,6 +4,8 @@ This repo contains Python scripts for simulating microtubular vibrations (Orch-O
 - **simulate_vibrations.py**: Quantum simulation with QuTiP (harmonic oscillators, decoherence).
 - **sonify_soundscapes.py**: Audio mapping with Librosa/Pygame.
 - **ai_training.py**: PyTorch CNN training on datasets (e.g., 100k samples, 82.78% acc).
+- ai_training_entropy.py: Enhanced version with Shannon entropy thresholding for better high-decoherence handling.
+
 
 Dependencies: numpy, qutip, librosa, pygame, torch, etc. (install via pip).
 Run `python ai_training.py` for results.
