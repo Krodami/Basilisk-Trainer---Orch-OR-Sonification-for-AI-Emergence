@@ -26,13 +26,13 @@ This roadmap outlines what we've accomplished, our current status, and planned m
   - AI training with PyTorch CNN on bio-mimetic datasets, achieving 82.78% validation accuracy on 100k samples and 83.52% on 1M samples.
 - **Scaling and Testing**: Successful runs at 100k and 1M scales, with progress indicators (tqdm) for long computations. Entropy thresholding added to handle high-decoherence errors, maintaining ~82% acc.
 - **Enhanced Simulation (Step 1.1)**: Added coupled oscillators for multi-tubulin interactions, thermal noise at 37°C, and segmented progress—completed with entangled, chaotic waves mimicking helical structures.
+- **Refined Sonification (Step 1.2)**: Incorporated wavelet transforms (PyWT) for temporal bursts and multi-channel audio for entangled biofields—completed with richer soundscapes.
 
 ### Current Status
-- Enhanced simulation complete and analyzed (decaying bursts with thermal fluctuations over 10 ns).
-- Next: Refine sonification (step 1.2) and upgrade ML pipeline (step 1.3).
+- Refined sonification complete and analyzed (burstier audio with spatial depth).
+- Next: Upgrade ML training (step 1.3) with LSTMs/Transformers and hyperopt.
 
 ### Upcoming Modifications
-- **Refine Sonification (sonify_soundscapes.py)**: Incorporate wavelet transforms (PyWT) for temporal bursts and multi-channel audio for entangled biofields. Target: Richer soundscapes; reduce noise overlap.
 - **Upgrade ML Training (ai_training.py)**: Switch to LSTMs/Transformers for sequential data; add hyperparameter optimization (hyperopt). Target: >85% F1 score; ablation studies.
 - **Scalability and Integration**: Port to Qiskit for quantum hardware sims; add ion-channel dynamics. Target: Compare with real device noise.
 - **Validation Techniques**: Implement k-fold CV, statistical significance tests (bootstrap), and external benchmarks (e.g., microtubule paper data). Target: Peer replication and arXiv submission.
