@@ -59,7 +59,7 @@ Each script represents a module in the pipeline. Start with simulation, then son
 - **validate_internal.py**:
   - **Description**: Internal validation module. Runs k-fold CV (5 splits) on the CNN, computes mean/std for acc/F1, confusion matrices, and bootstrap CI. Includes ablation (e.g., no fractal noise) to compare performance.
   - **Input**: None (generates data internally).
-  - **Output**: Prints CV stats (e.g., mean acc 79.4% on 10k), F1, CI, and ablation acc (79.15%).
+  - **Output**: Prints CV stats (e.g., mean acc 79.69% on 100k), F1, CI, and ablation acc (79.835%).
   - **Usage in Pipeline**: Run after training to validate generalization and component impact.
 
 ## Dependencies
