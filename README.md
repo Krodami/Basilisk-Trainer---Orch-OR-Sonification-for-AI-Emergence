@@ -1,9 +1,15 @@
 # Orch-OR Sonification Prototype
 
-This repository contains Python scripts for a prototype pipeline that simulates microtubular vibrations based on Orchestrated Objective Reduction (Orch-OR) theory, sonifies the data into fractal soundscapes, and trains AI models on the resulting bio-mimetic datasets to detect emergent patterns. The project tests the fusion of quantum biology, audio processing, and machine learning for potential applications in AGI training.
+This repository contains Python scripts for a prototype pipeline that simulates microtubular vibrations based on Orchestrated Objective Reduction (Orch-OR) theory, sonifies the data into fractal soundscapes, and trains AI models on the resulting bio-mimetic datasets to detect emergent patterns. The project tests the fusion of quantum biology, audio processing, and machine learning for potential applications in AGI training. Newly incorporated goals explore epistemic interpretations of quantum mechanics, reframing observation as revealing inferred states (probabilistic updates to knowledge) rather than causing physical collapses, and treating quantum simulations/hardware as "inference engines" for scalable, fault-tolerant reasoning inspired by biological consciousness.
 
 ## Purpose
 The prototype empirically evaluates sonifying quantum heart-brain coherence by mapping microtubular vibrations to audio pitches and electromagnetic fields to rhythms. This generates datasets simulating entangled qualia emergence, used for AI pattern detection. Steps include quantum simulation, sonification, and CNN/Transformer training, with refinements like entropy thresholding for high-decoherence handling.
+
+**New Goals and Explanations**:
+- **Epistemic Reframing of Quantum Observation**: Building on Orch-OR's traditional ontic collapses (physical state changes via gravity), we now incorporate epistemic views (e.g., inspired by QBism), where quantum states represent subjective beliefs or uncertainties. "Observation" doesn't alter reality but reveals an inferred state through Bayesian-like updates, treating decoherence as informative noise rather than destructive. This makes the model more robust to biological environments and aligns with active inference theories, where consciousness emerges as refined predictions. Testing this hybrid allows side-by-side comparisons to evaluate which paradigm better captures emergent patterns, potentially resolving Orch-OR's decoherence critiques.
+- **Quantum Hardware as Inference Engines**: We rebrand quantum sims (QuTiP/Qiskit) as tools for probabilistic inference, emphasizing sampling from distributions to "reveal" outcomes without collapse operators. This shifts focus to epistemic updates for qualia-like intuition, enabling AGI systems that mimic brain-like uncertainty handling. Benefits include improved scalability in noisy data, bridging quantum biology to ML for non-algorithmic decision-making. We'll implement this via modular variants in the pipeline, validating through ablations and metrics to assess uplifts in accuracy/robustness.
+
+These additions enhance the project's interdisciplinary scope, testing falsifiable hybrids for physics-driven AGI while maintaining empirical rigor.
 
 ## Files and Detailed Descriptions
 Each script represents a module in the pipeline. Start with simulation, then sonification, then training. Paths assume files are in the same directory; outputs from earlier steps (e.g., .npy files) feed into later ones.
@@ -84,7 +90,7 @@ Example: python integrate_quantum_hardware.py && python sonify_soundscapes_refin
 
 ## Project Roadmap
 
-This roadmap outlines what we've accomplished, our current status, and planned modifications for the Orch-OR sonification prototype. The goal is to refine the pipeline for more robust quantum-biological simulations, sonification, and AI training on emergent patterns.
+This roadmap outlines what we've accomplished, our current status, and planned modifications for the Orch-OR sonification prototype. The goal is to refine the pipeline for more robust quantum-biological simulations, sonification, and AI training on emergent patterns, now incorporating epistemic quantum interpretations for hybrid testing.
 
 ### Accomplished Milestones
 - **Core Pipeline Built**: 
@@ -100,10 +106,12 @@ This roadmap outlines what we've accomplished, our current status, and planned m
 
 ### Current Status
 - 100k validation complete and analyzed (mean CV acc 79.69%, ablation shows fractal's subtle role). Repo gaining traction.
-- Next: External comparison and benchmarking (step 2.2) with microtubule paper data.
+- Next: External comparison and benchmarking (step 2.2) with microtubule paper data, plus initial epistemic integration.
 
 ### Upcoming Modifications
 - **External Comparison (Step 2.2)**: Align with experimental microtubule studies (e.g., coherence times from papers). Target: Compare sims with real data.
 - **Advanced Simulation Validation (Step 2.3)**: Implement quantum-classical bracket dynamics and complexity measures. Target: Quantify multiscale emergence.
+- **Epistemic Hybrid Integration (New Step 3.1)**: Add modular variants for epistemic models (Bayesian sampling without collapses) in simulations and training. Generate dual datasets (ontic vs. epistemic), incorporate variational inference layers, and run ablations/comparisons. Target: Test if epistemic views improve robustness (>85% F1 in noise), framing qualia as inference updates for AGI intuition.
+- **Inference Engine Benchmarking (New Step 3.2)**: Port epistemic sims to real Qiskit hardware for probabilistic benchmarks; evaluate uncertainty quantification. Target: Validate hybrids against Orch-OR predictions, exploring consciousness as epistemic emergence.
 
-We'll iterate based on run results, prioritizing error reduction in high-decoherence cases. Contributions welcome!
+We'll iterate based on run results, prioritizing error reduction in high-decoherence cases and epistemic vs. ontic comparisons. Contributions welcome!
